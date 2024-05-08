@@ -1,0 +1,38 @@
+
+May  8 06:26:01 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:26:01 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:26:01 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:26:01 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:26:01 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:26:01 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:26:01 server-name CRON[602234]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602246]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602245]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602248]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602249]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602250]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602242]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602252]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602253]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602255]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602244]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602259]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602261]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602268]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602270]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602286]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602278]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:26:01 server-name CRON[602287]: (user) CMD (bash /www/crons/file.sh)
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
+May  8 06:27:23 server-name kernel: [xxxxxx.xxxxxx] [ xxxx]    xx  xxxx   xxxxxx      x     x       xxxxx             x xxxxx
