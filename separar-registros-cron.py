@@ -11,20 +11,20 @@ def separar_registros_cron(arquivo_log):
 
                 if 'CRON' in linha:
 
-                    # Extrair data e hora
+                    # Extrai data e hora
                     data_hora = ' '.join(linha.split()[:3])
 
-                    # Extrair nome de usuário
+                    # Extrai nome de usuário
                     inicio_usuario = linha.find('(') + 1
                     fim_usuario = linha.find(')')
                     nome_usuario = linha[inicio_usuario:fim_usuario]
 
-                    # Extrair comando da tarefa
+                    # Extrai comando da tarefa
                     inicio_comando = linha.find('CMD (') + len('CMD (')
                     fim_comando = linha.rfind(')')
                     comando_tarefa = linha[inicio_comando:fim_comando]
 
-                    # Criar dicionário com informações do registro de cron
+                    # Cria dicionário com informações do registro de cron
                     registro_cron = {
                         'data_hora': data_hora,
                         'nome_usuario': nome_usuario,
@@ -58,6 +58,7 @@ def main():
     arquivo_log = input("Informe o caminho do arquivo: ")
 
     if not os.path.exists(arquivo_log):
+            
             print(f"Arquivo '{arquivo_log}' não encontrado.")
             return
 
@@ -65,14 +66,26 @@ def main():
 
     if registros_cron:
 
-        for i, registro in enumerate(registros_cron, 1):
+        # Abre ou cria um arquivo para escrever os registros
+        with open('registros_cron.txt', 'w') as arquivo:
 
-            print(f"Registro {i}:")
-            
-            for chave, valor in registro.items():
-                print(f"{chave}: {valor}")
-            print()
+            for i, registro in enumerate(registros_cron, 1):
 
+                # Escreve o cabeçalho do registro no arquivo
+                arquivo.write(f"Registro {i}:\n")
+
+                for chave, valor in registro.items():
+                    # Escreve cada registro no arquivo
+                    arquivo.write(f"{chave}: {valor}\n")
+
+                # Adiciona uma linha em branco após cada registro
+                arquivo.write('\n')
+
+        print("Registros salvos com sucesso no arquivo 'registros_cron.txt'.")
+
+    else:
+
+        print("Não há registros para salvar.")
 
 if __name__ == "__main__":
     main()
